@@ -20,7 +20,7 @@ const container = document.querySelector('main div')
 // Métodos de Arrays para Iterar
 db.forEach((guitar) => 
     {console.log(guitar.nombre)
-    container.appendChild(createCard(guitar.nombre))
+    container.appendChild(createCard(guitar.nombreeee))
 });
 */
 
@@ -45,7 +45,7 @@ const createCart = (carrito) => {
                                     <th>Imagen</th>
                                     <th>Nombre</th>
                                     <th>Precio</th>
-                                    <th>Cantidad</th>
+                                    <th>cantidad</th>
                                     <th></th>
                                 </tr>
                             </thead>
