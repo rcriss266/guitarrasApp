@@ -43,7 +43,7 @@ const createCart = (carrito) => {
                             <thead>
                                 <tr>
                                     <th>Imagen</th>
-                                    <th>Nombre</th>
+                                    <th>nombre</th>
                                     <th>Precio</th>
                                     <th>Cantidad</th>
                                     <th></th>
