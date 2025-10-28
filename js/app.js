@@ -165,6 +165,14 @@ const carritoClicked = (e) => {
         createCart(carrito)
     }
 }
+
+const getLocalStorange = () => {
+    const carritoStorage = localStorage.getItem
+}
+
+const setLocalStorage = () => {
+    localStorage.setItem('carrito', JSON.stringify(carrito))
+}
 /*
     const idGuitar = 
     const indexdb= db.findIndex(guitar => guitar.id === Number (idGuitar))
@@ -201,7 +209,14 @@ const createDiv = (guitar) => {
 db.forEach( guitar => {
     divContainer.appendChild(createCard(guitar) );
 })
+
+getLocalStorange()
 createCart(carrito)
 
-divContainer.addEventListener('click', buttonClicked)
-carritocontainer.addEventListener('click', carritoClicked)
+divContainer
+    .addEventListener('click', buttonClicked)
+
+carritocontainer
+    .addEventListener('click', carritoClicked)
+
+
